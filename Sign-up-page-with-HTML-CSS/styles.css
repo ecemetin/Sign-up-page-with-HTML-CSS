@@ -1,0 +1,148 @@
+/* 
+Background color: #F1F2F3
+Google button color: #FFFFFF
+Github button color: #2F3337 
+Facebook button color: #385499
+Primary color: #0074CC
+Shadow for white card on the right:
+box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 24px 0px, rgba(0, 0, 0, 0.05) 0px 20px 48px 0px, rgba(0, 0, 0, 0.1) 0px 1px 4px 0px;
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: #f1f2f3;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.col1 {
+  width: 59%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: flex-end;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col1-text {
+  border: black 1px solid;
+  text-align: left;
+  position: absolute;
+  right: 0;
+  top: 30vh;
+}
+.text-small {
+  font-size: 0.8rem;
+}
+
+.text-margin-top-small {
+  margin-bottom: 0px;
+}
+
+a {
+  color: #0074cc;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-top: 16px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.col2 {
+  width: 40%;
+  height: 100vh;
+  overflow: none;
+  display: inline-block;
+}
+
+.button-container {
+  width: 300px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.facebook {
+  background-color: #385499;
+  width: 300px;
+  height: 35px;
+  border-radius: 5px;
+}
+.facebook-link {
+  color: white;
+}
+.google {
+  background-color: #ffffff;
+  width: 300px;
+  height: 35px;
+  border-radius: 5px;
+}
+.google-link {
+  color: black;
+}
+.github {
+  background-color: #2f3337;
+  width: 300px;
+  height: 35px;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+.github-link {
+  text-decoration: none;
+  color: white;
+}
+a.link {
+  text-decoration: none;
+  color: #0074cc;
+}
+.user-info {
+  width: 300px;
+  height: 600px;
+  border: 1px white solid;
+  padding: 12px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 24px 0px,
+    rgba(0, 0, 0, 0.05) 0px 20px 48px 0px, rgba(0, 0, 0, 0.1) 0px 1px 4px 0px;
+}
+.text-under-form {
+}
+.terms-policy-text {
+}
+.sign-up {
+  background-color: #385499;
+  width: 250px;
+  height: 35px;
+  border-radius: 5px;
+}
+.subscribe-text {
+  text-size: 11px;
+}
+.reCAPTCHA {
+  width: 250px;
+  height: 150px;
+  background-color: #f1f2f3;
+  border: 1px black solid;
+  padding: 12px;
+  border-radius: 5px;
+}
